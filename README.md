@@ -1,4 +1,4 @@
-# Getting Started with Micro Front End - Remote Application
+# Getting Started with Micro Front End - Remote Applications
 
 An example remote application that exposes itself as a webpack module that can be imported by a MFE host application. See [`mfe-host-container`](https://github.com/sroy-eq/mfe-host-container).
 
