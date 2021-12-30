@@ -1,25 +1,10 @@
 import React, { useState, useEffect } from "react";
-// import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-// import { createBrowserHistory } from 'history';
-// import GreetingCat from './GreetingCat';
-// import RandomCat from './RandomCat';
-import './App.css';
 
-// Commented out routing to multiple components to keep it simple for now. 
-// const defaultHistory = createBrowserHistory();
-// function App(history = defaultHistory) {
-//   return (
-//     // <Router history={history}>
-//     //   <Routes>
-//     //     <Route path="/" component={RandomCat} />
-//     //     <Route path="/cat/:greeting" component={GreetingCat} />
-//     //   </Routes>
-//     // </Router>    
-//   );
-// }
+export default function RandomCat() {
+  debugger;
 
-function App() {
   const [randomCatImg, setRandomCatImg] = useState(null);
+
   const fetchRandomCat = () => {
     setRandomCatImg("");
     fetch(`https://aws.random.cat/meow`)
@@ -54,4 +39,3 @@ function App() {
   );
 }
 
-export default App;
