@@ -4,12 +4,16 @@ An example remote application that exposes itself as a webpack module that can b
 
 Read more about MFE [here](https://micro-frontends.org/). 
 
+## Prerequisites
+Git clone locally [this repo](https://github.com/octavian-negru/mfe-fastapi-backend-example) and get it running.
 
 ## Usage
 
 `yarn` - to install the node packages. 
 
 `yarn start` - to run the application. It uses the port 3001. 
+
+Whenever a code change occurs, stop the container with `docker-compose stop`, `yarn build` and then `yarn start`.
 
 
 ## Micro-frontend Remotes
