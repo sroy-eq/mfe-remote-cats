@@ -13,7 +13,7 @@ Git clone locally [this repo](https://github.com/octavian-negru/mfe-fastapi-back
 
 `yarn start` - to run the application. It uses the port 3001. 
 
-Whenever a code change occurs, stop the container with `docker-compose stop`, `yarn build` and then `yarn start`.
+Whenever a code change occurs, stop the app, `yarn build` and then `yarn start`.
 
 
 ## Micro-frontend Remotes
