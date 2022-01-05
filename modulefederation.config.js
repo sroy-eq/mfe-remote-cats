@@ -18,10 +18,5 @@ module.exports = {
       eager: true,
       requiredVersion: dependencies["react-dom"],
     },
-    "pubsub-js": {
-      singleton: true,
-      eager: true,
-      requiredVersion: dependencies["pubsub-js"],
-    },
   },
 };
