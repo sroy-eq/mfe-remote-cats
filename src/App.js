@@ -14,7 +14,12 @@ function App() {
   const [randomCatImg, setRandomCatImg] = useState(null);
   const fetchRandomCat = () => {
     setRandomCatImg("");
-    fetch(`https://aws.random.cat/meow`)
+    const opts = {
+      headers: {
+        mode: 'no-cors'
+      }
+    }
+    fetch(`http://localhost:8001/random_cat`, opts)
       .then((res) => res.json())
       .then((catInfo) => {
         setRandomCatImg(catInfo.file);
